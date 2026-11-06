@@ -1,0 +1,25 @@
+
+body {
+    font-family: Arial;
+}
+
+h1 {
+    color: #FF8FAB;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 18px;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: black;
+}

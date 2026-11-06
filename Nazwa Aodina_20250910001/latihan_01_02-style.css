@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    color: #FF8FAB;
+    text-align: center;
+    font-size: 32px;
+}
+
+dt {
+    color: #FF8FAB;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+dd {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top: 10px;
+}
+
+ol {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 12px;
+    text-align: justify;
+}
