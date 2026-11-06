@@ -699,5 +699,20 @@ a {
 
     .hero-text h2 {
         font-size: 1.1rem;
+        /* Membuat bagian mini facts sejajar ke samping */
+.mini-facts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 15px;
+    flex-wrap: nowrap;
+}
+
+.mini-facts .fact {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+}
     }
 }
