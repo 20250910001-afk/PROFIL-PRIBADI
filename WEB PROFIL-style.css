@@ -700,19 +700,24 @@ a {
     .hero-text h2 {
         font-size: 1.1rem;
         /* Membuat bagian mini facts sejajar ke samping */
+
 .mini-facts {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 15px;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    width: 100%;
 }
 
-.mini-facts .fact {
-    flex: 1;
-    min-width: 0;
-    text-align: center;
+.fact {
+    width: 100%;
+    box-sizing: border-box;
 }
+
+@media (max-width: 768px) {
+    .mini-facts {
+        grid-template-columns: 1fr;
+    }
+}
+
     }
 }
